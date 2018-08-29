@@ -126,7 +126,7 @@ class ActionsBar extends React.Component {
 
     return (
       <div className={classes.actionsBar}>
-        <div className={classes.group}>
+        {/*<div className={classes.group}>
           <IconButton
             aria-label="Back to list"
             onClick={this.homeOnClick}
@@ -149,7 +149,7 @@ class ActionsBar extends React.Component {
           >
             <SearchIcon className={classes.button} />
           </IconButton>
-        </div>
+        </div>*/}
         <div className={classes.group}>
           {navigatorPosition === "is-aside" && <FontSetter increaseFont={this.fontSetterOnClick} />}
           {screenfull.enabled && (
